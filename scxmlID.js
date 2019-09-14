@@ -9,7 +9,7 @@ var out = [];
 var str = '';
 const getOrcID = (arr) => {
     arr.filter(x => {
-        if(x.length >= 32){
+        if(x.length >= 35){
             out.push(x.toString().trim())
         }
     });
